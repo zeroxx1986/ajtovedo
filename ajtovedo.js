@@ -14,4 +14,4 @@ export class Test extends Component {
   }
 }
 
-render(html`<$Test />`, document.getElementById("app"))
+render(html`<${Test} />`, document.getElementById("app"))
