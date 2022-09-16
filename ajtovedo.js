@@ -13,3 +13,5 @@ export class Test extends Component {
     return html`<div>Testing</div>`
   }
 }
+
+render(html`<$Test />`, document.getElementById("app"))
